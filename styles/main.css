@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*This is to give my mainWraper and content a size and background*/
+#mainWrapper{
+	width:414px;
+	height:100%;
+	background-color: white;
+	margin:0px auto;
+	/*This line centers my page*/
+	}
+
+/*This is so that the padding and border added later dont't add to my overall box size, really important*/
+*{
+	box-sizing: border-box;
+}
+
+header{
+	width: 414px;
+	height: 80px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	background-color:rgba(31,25,26,1.00);
+	
+}
+
+header h1{
+	margin:27px 90px 15px 5px;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+	float: right;
+	
+}
+
+header img{
+	float: left;
+	width: 60 px;
+	height: 60px;
+	margin: 10px 10px 0px 10px;
+	border-radius: 50%;
+	
+}
+
+ nav{
+	width:409px;
+	height: 30px;
+	clear: both;
+	margin: 10px 0px 10px 0px;
+	padding: 2px;
+	
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	}
+
+nav li {
+	display:inline-block;
+	width: 69px;
+	padding: 5px;
+	margin: 0px 5px 0px 0px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .7em;
+	text-align: center;
+}
+
+section figure{
+	height: 200px;
+	width: 414px;
+	margin: 0px;
+	padding: 0px;
+}
+/*section figure img{
+	height: 200px;
+	width: 414px;
+	margin: 0px;
+	padding; 0px;
+}*/
+
+section p{
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.pics{
+	height: 350px;
+	widht: 414px;
+	margin: 0px;
+	padding: 0px;
+	background-color:rgba(213,210,210,0.75);
+}
+
+.pics img{
+	height: 130px;
+	width: 185px;
+	margin: 0px;
+	padding: 20px;
+	/*float: left;*/
+}
+
+footer{
+	clear: both;
+	margin:-10px 0px 0px 0px;
+	padding: 0px;
+	width: 414px;
+	height: 25px;
+	background-color:rgba(31,25,26,1.00);
+}
+
+footer p{
+	margin: 0px;
+	padding: 4px;
+	text-align: center;
+	color: white;
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+}
