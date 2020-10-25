@@ -98,7 +98,7 @@ section figure{
 	height: 340px;
 	width: 414px;
 	margin: 0px;
-	padding: 25px 30px 15px 25px;
+	padding: 25px 30px 15px 22px;
 	background-color:rgba(213,210,210,0.75);
 	/*trying a grid styling method*/
 	display: grid;
@@ -111,10 +111,10 @@ section figure{
 .gridImage{
 	height: 115px;
 	width: 165px;
-	/*object-fit: cover;*/
+	
 	/*margin: 20px;
 	padding: 0px;
-	float: left;*/ /*These were other things that I tried that didn't quite work*/
+	float: left;*/ /*These were other things that I tried that didn't quite work as I expected*/
 }
 
 
