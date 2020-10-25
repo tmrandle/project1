@@ -25,7 +25,7 @@ header{
 }
 
 header h1{
-	margin:27px 90px 15px 5px;
+	margin:27px 100px 15px 5px;
 	text-align: center;
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +38,7 @@ header img{
 	float: left;
 	width: 60 px;
 	height: 60px;
-	margin: 10px 10px 0px 10px;
+	margin: 10px 10px 0px 15px;
 	border-radius: 50%;
 	
 }
@@ -67,7 +67,11 @@ nav li {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: .7em;
-	text-align: center;
+}
+
+nav a{
+	text-decoration: none;
+	color:black;
 }
 
 section figure{
@@ -83,28 +87,37 @@ section figure{
 	padding; 0px;
 }*/
 
-section p{
-	margin: 5px;
+.hero p{
+	margin: 8px;
 	padding: 5px;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 .pics{
-	height: 350px;
-	widht: 414px;
+	height: 340px;
+	width: 414px;
 	margin: 0px;
-	padding: 0px;
+	padding: 25px 30px 15px 25px;
 	background-color:rgba(213,210,210,0.75);
+	/*trying a grid styling method*/
+	display: grid;
+	grid-template-columns: 140px 100px;
+	grid-template-rows: 100px 100px;
+	grid-gap: 64px;
+			
 }
 
-.pics img{
-	height: 130px;
-	width: 185px;
-	margin: 0px;
-	padding: 20px;
-	/*float: left;*/
+.gridImage{
+	height: 115px;
+	width: 165px;
+	/*object-fit: cover;*/
+	/*margin: 20px;
+	padding: 0px;
+	float: left;*/ /*These were other things that I tried that didn't quite work*/
 }
+
+
 
 footer{
 	clear: both;
@@ -117,7 +130,7 @@ footer{
 
 footer p{
 	margin: 0px;
-	padding: 4px;
+	padding: 5px;
 	text-align: center;
 	color: white;
 	font-size: .7em;
