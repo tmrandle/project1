@@ -3,14 +3,14 @@
 
 /*This is to give my mainWraper and content a size and background*/
 #mainWrapper{
-	width:414px;
-	height:100%;
+	width: 414px;
+	height: 100%;
 	background-color: white;
-	margin:0px auto;
+	margin: 0px auto;
 	/*This line centers my page*/
 	}
 
-/*This is so that the padding and border added later dont't add to my overall box size, really important*/
+/*This is so that the padding and border added later dont't add to my overall box size*/
 *{
 	box-sizing: border-box;
 }
@@ -71,21 +71,22 @@ nav li {
 
 nav a{
 	text-decoration: none;
-	color:black;
+	color: black;
 }
 
-section figure{
+/*section figure{
+	height: 200px;
+	width: 414px;
+	margin: 0px;
+	padding: 0px;
+}*/
+
+.hero figure {
 	height: 200px;
 	width: 414px;
 	margin: 0px;
 	padding: 0px;
 }
-/*section figure img{
-	height: 200px;
-	width: 414px;
-	margin: 0px;
-	padding; 0px;
-}*/
 
 .hero p{
 	margin: 8px;
@@ -94,34 +95,39 @@ section figure{
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .pics{
-	height: 340px;
+	height: 320px;
 	width: 414px;
 	margin: 0px;
-	padding: 25px 30px 15px 22px;
+	padding: 0px;
 	background-color:rgba(213,210,210,0.75);
 	/*trying a grid styling method*/
 	display: grid;
-	grid-template-columns: 140px 100px;
-	grid-template-rows: 100px 100px;
-	grid-gap: 64px;
+	grid-template-columns: 165px 165px;
+	grid-template-rows: 110px 110px;
+	grid-gap: 45px;
+	
 			
 }
 
+/*.pics figure{
+	margin: 3px;
+	padding: 20px;
+}*/
+
 .gridImage{
-	height: 115px;
+	height: 110px;
 	width: 165px;
-	
-	/*margin: 20px;
-	padding: 0px;
-	float: left;*/ /*These were other things that I tried that didn't quite work as I expected*/
+	margin: 5px 0px;
+	padding: 20px;
 }
 
 
 
 footer{
 	clear: both;
-	margin:-10px 0px 0px 0px;
+	margin: 0px;
 	padding: 0px;
 	width: 414px;
 	height: 25px;
