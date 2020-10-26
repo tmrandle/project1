@@ -102,6 +102,7 @@ nav a{
 	margin: 0px;
 	padding: 0px;
 	background-color:rgba(213,210,210,0.75);
+	border-top: 1px solid rgba(55,55,55,0.3);
 	/*trying a grid styling method*/
 	display: grid;
 	grid-template-columns: 165px 165px;
