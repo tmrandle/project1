@@ -102,20 +102,14 @@ nav a{
 	margin: 0px;
 	padding: 0px;
 	background-color:rgba(213,210,210,0.75);
-	border-top: 1px solid rgba(55,55,55,0.3);
+	border-top: 1px solid rgba(55,55,55,0.2);
 	/*trying a grid styling method*/
 	display: grid;
 	grid-template-columns: 165px 165px;
 	grid-template-rows: 110px 110px;
-	grid-gap: 45px;
-	
-			
+	grid-gap: 45px;		
 }
 
-/*.pics figure{
-	margin: 3px;
-	padding: 20px;
-}*/
 
 .gridImage{
 	height: 110px;
