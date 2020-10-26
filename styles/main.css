@@ -123,10 +123,8 @@ nav a{
 	padding: 20px;
 }
 
-
-
 footer{
-	clear: both;
+	/*clear: both;*/
 	margin: 0px;
 	padding: 0px;
 	width: 414px;
